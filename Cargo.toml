@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "cli/cmd",
+    "coding-common",
+    "coding-usage",
+]
+
+# [dependencies]
+# serde = "1.0"  # 共享依赖

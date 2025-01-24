@@ -1,0 +1,10 @@
+[package]
+name = "cmd"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+coding-common = { path = "../../coding-common" }
+anyhow = "1.0"
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4", features = ["derive"] }
