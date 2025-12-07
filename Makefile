@@ -10,7 +10,8 @@ install:
 	# export RUSTC_WRAPPER=sccache
 
 sqlx-prepare:
-	# DATABASE_URL=mysql://root:xxx@luvx.rx:3306/boot
+	# DATABASE_URL=mysql://root:xxx@mysql5.7-master:3306/boot?charset=utf8mb4
+	# cargo install sqlx-cli
 	cargo sqlx prepare --workspace -- --all-targets --all-features --tests
 bench:
 	cargo bench

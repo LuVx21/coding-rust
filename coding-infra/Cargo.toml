@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "infra-sql",
+    "infra-nosql",
+    "infra-rest",
+]

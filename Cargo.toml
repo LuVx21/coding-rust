@@ -3,6 +3,9 @@ members = [
     "cli/cmd",
     "coding-common",
     "coding-usage",
+    "coding-infra/infra-sql",
+    "coding-infra/infra-nosql",
+    "coding-infra/infra-rest",
 ]
 
 # [dependencies]

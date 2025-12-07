@@ -1,0 +1,11 @@
+[package]
+name = "infra-sql"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "infra_sql"
+path = "src/lib.rs"
+
+[dependencies]
+coding-common = { path = "../../coding-common" }

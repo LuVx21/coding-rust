@@ -22,7 +22,7 @@ RUN cargo build \
     --release \
     && strip -s target/release/coding-usage
 
-FROM debian:bookworm-slim AS app
+FROM debian:trixie-slim AS app
 
 COPY --from=builder /build/target/release/coding-usage .
 
